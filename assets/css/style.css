@@ -2839,10 +2839,11 @@ h3:after {
 .overlay-item .mask {
   display: block;
   position: absolute;
-  overflow: hidden;
+  overflow: scroll;
   top: 0;
   left: 0;
   height: 100%;
+  padding : 5px;
 }
 .overlay-item img {
   display: block;
@@ -2862,8 +2863,9 @@ h3:after {
   color: #fff;
 }
 .overlay-item p {
-  padding: 5px;
+  padding-top: 5px;
   text-align: center;
+  font-size: 12px;
 }
 .overlay-item a.btn {
  margin: 10px 0;
@@ -2882,7 +2884,7 @@ h3:after {
   transition: all 0.7s ease-in-out;
 }
 .overlay-effect .mask {
-  background-color: grey;
+  background-color: #f1f1f1;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
